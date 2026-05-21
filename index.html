@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOY SYSTEM - Cyberpunk Pools Carousel Premium</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <style>
+        /* ==========================================================================
+           CSS KUSTOM NEON CYAN - UNTUK STRUKTUR ASLI ANDA (ANTI JELEK)
+           ========================================================================== */
+        
+        /* Area luar container carousel */
+        #latest-results.margin-top-15 {
+            background-color: #06080c !important;
+            padding: 30px 15px !important;
+            border-radius: 20px !important;
+            box-sizing: border-box;
+        }
+
+        /* Target langsung ke class item slides bawaan Anda */
+        #latest-results .owl-carousel .item.slides {
+            background: rgba(16, 21, 30, 0.6) !important;
+            backdrop-filter: blur(8px) !important;
+            -webkit-backdrop-filter: blur(8px) !important;
+            border: 1px solid rgba(0, 255, 255, 0.12) !important;
+            border-radius: 24px !important;
+            padding: 25px 15px !important;
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
+            box-sizing: border-box;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        /* Efek Hover: Card Naik & Glow Menyala */
+        #latest-results .owl-carousel .item.slides:hover {
+            transform: translateY(-8px) !important;
+            border-color: rgba(0, 255, 255, 0.6) !important;
+            box-shadow: 0 12px 30px rgba(0, 255, 255, 0.25), 
+                        inset 0 0 15px rgba(0, 255, 255, 0.1) !important;
+        }
+
+        /* Otomatis maksa gambar kotak (.w-100) milik Anda jadi lingkaran neon sempurna */
+        #latest-results .owl-carousel .item.slides img.w-100 {
+            width: 145px !important;
+            height: 145px !important;
+            object-fit: cover !important; /* Memastikan logo di dalam lingkaran tidak gepeng */
+            border-radius: 50% !important;
+            border: 2px solid #00ffff !important;
+            box-shadow: 0 0 15px #00ffff, inset 0 0 10px #00ffff !important;
+            background-color: #000000 !important;
+            margin: 0 auto !important;
+            transition: transform 0.5s ease !important;
+        }
+
+        /* Efek pembesaran halus pada lingkaran saat di-hover */
+        #latest-results .owl-carousel .item.slides:hover img.w-100 {
+            transform: scale(1.06) !important;
+            box-shadow: 0 0 25px #00ffff, inset 0 0 12px #00ffff !important;
+        }
+
+        /* Merapikan tampilan dots indikator di bawah slider */
+        .owl-theme .owl-dots {
+            margin-top: 20px !important;
+        }
+        .owl-theme .owl-dots .owl-dot span {
+            background: rgba(0, 255, 255, 0.2) !important;
+            width: 8px !important;
+            height: 8px !important;
+            transition: all 0.3s ease !important;
+        }
+        .owl-theme .owl-dots .owl-dot.active span {
+            background: #00ffff !important;
+            width: 24px !important;
+            box-shadow: 0 0 10px #00ffff !important;
+        }
+    </style>
+</head>
+<body>
+
+<div id="latest-results" class="margin-top-15">        
+    <div class="owl-carousel owl-theme gameicon">                                                
+        
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/fy54yXkn/image.jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/zXXZMdP5/download-(11).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/15ChZpLw/download-(10).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/9QD3XD25/download-(9).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/HkRqrTWy/download-(8).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/ydz2TnSr/download-(7).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/qRXSDns1/download-(6).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/prW7wTC6/download-(5).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/qq1Y4TZ0/download-(4).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/CM79jGLK/download-(3).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/4NFM0X9h/download-(2).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/pX17SPF7/download-(1).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/DwJDkRrR/download.jpg" class="w-100">                    
+        </div>                                    
+
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/fy54yXkn/image.jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/zXXZMdP5/download-(11).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/15ChZpLw/download-(10).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/9QD3XD25/download-(9).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/HkRqrTWy/download-(8).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/ydz2TnSr/download-(7).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/qRXSDns1/download-(6).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/prW7wTC6/download-(5).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/qq1Y4TZ0/download-(4).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/CM79jGLK/download-(3).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/4NFM0X9h/download-(2).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/pX17SPF7/download-(1).jpg" class="w-100">                    
+        </div>                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                        
+            <img src="https://i.postimg.cc/DwJDkRrR/download.jpg" class="w-100">                    
+        </div>                                    
+
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/fy54yXkn/image.jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/zXXZMdP5/download-(11).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/15ChZpLw/download-(10).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/9QD3XD25/download-(9).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/HkRqrTWy/download-(8).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/ydz2TnSr/download-(7).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/qRXSDns1/download-(6).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/prW7wTC6/download-(5).jpg" class="w-100">                        
+        </div>                                                                                                    
+        <div class="item slides" data-animation="fadeIn" style='text-align:center'>                            
+            <img src="https://i.postimg.cc/qq1Y4TZ0/download-(4).jpg" class="w-100">                        
+        </div>                                                        
+    </div>        
+    <br>        
+</div>    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel.gameicon").owlCarousel({
+            loop: true,
+            margin: 20,              // Jarak spasi antar card agar pas
+            nav: false,              // Tanpa tombol panah default
+            dots: true,              // Mengaktifkan dot slider kustom di bawah
+            autoplay: true,          // Otomatis bergeser sendiri
+            autoplayTimeout: 3500,   // Durasi diam per slide (3.5 detik)
+            smartSpeed: 800,         // Kecepatan pergeseran transisi halus (800ms)
+            responsive:{
+                0:{ items: 1 },
+                576:{ items: 2 },
+                992:{ items: 3 },
+                1200:{ items: 4 }    // Menampilkan pas 4 item sejajar pada resolusi PC desktop
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
